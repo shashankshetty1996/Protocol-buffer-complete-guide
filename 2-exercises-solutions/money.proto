@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message Money {
+  // Three letter country code defined by ISO 4217
+  string currency_code = 1;
+
+  // Unit value
+  int64 units = 2;
+
+  // Number of nano (10^-9) or decimals
+  int32 nanos = 3;
+}

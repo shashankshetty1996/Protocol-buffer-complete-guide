@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+// Represts day of a week
+enum DayOfWeek {
+  // For unknown date
+  DATE_OF_WEEK_UNSPECIFIED = 0;
+
+  // For Monday
+  MONDAY = 1;
+
+  // For Tuesday
+  TUESDAY = 2;
+
+  // For Wednesday
+  WEDNESDAY = 3;
+
+  // For Thursday
+  THURSDAY = 4;
+
+  // For Friday
+  FRIDAY = 5;
+
+  // For Saturday
+  SATURDAY = 6;
+
+  // For Sunday
+  SUNDAY = 7;
+}

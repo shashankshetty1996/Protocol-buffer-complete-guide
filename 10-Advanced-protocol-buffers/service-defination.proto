@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message ServiceRequest {
+  int32 person_id = 1;
+}
+
+message ServiceResponse {
+  int32 person_id = 1;
+  string person_name = 2;
+}
+
+service Service {
+  rpc Search (SearchRequest) returns (SearchReponse) {};
+}
